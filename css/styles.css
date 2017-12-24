@@ -1,0 +1,155 @@
+ul.menu { 
+	margin-top: 0px; 
+	border-bottom-style: outset;
+	background-color: gray;
+	display: table;
+	width: 100%;
+}
+
+li.menu__item {
+	height: 40px;	
+	width: auto;
+	margin-top: 1vh;
+	min-width: 10%;
+	font-family: 'Brutal-Dude';
+	font-size: calc(25px + 0.5vmin);
+	text-shadow: red 0 0 10px;
+	float: left;  	
+	margin-right: 3%; 
+	display: table-cell;	
+}
+
+.logo-img{
+	height: auto;
+	max-height: 100%;
+	min-height: 30px;
+	width: 100%;
+	max-width: 255px;
+}
+
+a.menu__item-link{
+	text-decoration: none;
+	max-height: 100%;
+}
+
+a.menu__item-link_disabled {
+    pointer-events: none;
+    cursor: default; 
+    color: black;
+}
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-image: url(../images/top-background.jpg);
+
+	//width: 100%;
+	overflow-x: hidden !important;
+}
+
+
+.button{	
+	padding-top: 45vh;	
+}
+
+.button__link{
+	background: grey;
+    border-radius: 40px;
+    box-shadow: 0 -3px 0 0 hsla(0, 0%, 0%, 0.2) inset;
+    color: #990000;
+    display: table;
+    font-family: 'Brutal-Tooth';
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 10px 25px;
+    margin:0 auto;
+    text-decoration: none;
+    transition: all 0.3s;
+    text-shadow:
+       4px 4px 1px #300000,
+       4px 6px 1px #400000;    
+}
+
+.link-button:hover{
+	background: red;
+    box-shadow: 0 3px 0 0 hsla(0, 0%, 0%, 0.2) inset;
+}
+
+.article{
+	padding-left: 20%;
+	padding-right: 20%;	
+	color: #DFB143;
+}
+
+.article__image{
+	display: block;
+	margin: 0 auto;
+}
+
+.top-list{
+	padding-left: 42.5%;
+	padding-right: 42.5%;
+	width: 15%;	
+}
+
+.top-list__element{
+	font-size: 50px;
+	color: #DFB143;
+	font-style: italic;
+	text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+}
+
+.image-enemy{
+    width: 100px;
+    height: 100px;
+}
+
+.game {
+	margin: 2%;
+	background-color: transparent;
+	font-family: 'Brutal-Dude';
+	padding: 3% 3%;
+	font-size: large;
+	height: 700px;
+}
+
+.game_over
+{
+	margin: 5% 20%;
+	background-color: transparent;
+	font-family: 'Brutal-Tooth';
+	color: red;
+	opacity: 0.95;
+	padding: 10%;
+}
+
+.game__text
+{
+    color: red;
+}
+
+@font-face {
+    font-family: 'Brutal-Tooth';
+    src:url('../fonts/Brutal-Tooth.ttf.woff') format('woff'),
+        url('../fonts/Brutal-Tooth.ttf.svg#Brutal-Tooth') format('svg'),
+        url('../fonts/Brutal-Tooth.ttf.eot'),
+        url('../fonts/Brutal-Tooth.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal-Dude';
+    src:url('../fonts/Brutal-Dude.ttf.woff') format('woff'),
+        url('../fonts/Brutal-Dude.ttf.svg#Brutal-Dude') format('svg'),
+        url('../fonts/Brutal-Dude.ttf.eot'),
+        url('../fonts/Brutal-Dude.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

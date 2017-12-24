@@ -1,0 +1,6 @@
+<div class="top-list-block">
+	<ol class="top-list-block__list">
+		<li ng-repeat="user in users | orderBy:'score':!reverse">{{user.name}} : {{user.score}}</li>
+	</ol>
+</div>
+
